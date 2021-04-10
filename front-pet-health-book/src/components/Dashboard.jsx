@@ -5,22 +5,7 @@ import axios from 'axios';
 const Dashboard = () =>{
     // eslint-disable-next-line react-hooks/rules-of-hooks
 const [reports, setReports] = useState([]); 
-const url = [
-    {
-    'date':'10/04/2021',
-    'title':'Vaccin',
-    'report':'prochain vaccin dans 1 an'
-    },
-    {
-        'date':'10/04/2021',
-        'title':'vermifuge',
-        'report':'prochain vaccin dans 6 mois'
-    },
-    {
-        'date':'10/04/2021',
-        'title':'Achat Croquette',
-        'report':'Croquette Royal Canin pour un chien Royal !'
-    }];
+const url = 'http://localhost:5000/dashboard/reports';
 const getReports = () => {
     axios
     .get(url)
