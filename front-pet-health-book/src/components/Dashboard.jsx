@@ -5,7 +5,7 @@ import axios from 'axios';
 const Dashboard = () =>{
     // eslint-disable-next-line react-hooks/rules-of-hooks
 const [reports, setReports] = useState([]); 
-const url = 'http://localhost:5000/dashboard/reports';
+const url = 'http://lvh.me/dashboard/reports';
 const getReports = () => {
     axios
     .get(url)
