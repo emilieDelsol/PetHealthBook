@@ -1,0 +1,30 @@
+{
+  "name": "pethealthbook",
+  "version": "1.0.0",
+  "description": "red thread project for D2velop",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "cd front-pet-health-book && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilieDelsol/PetHealthBook.git"
+  },
+  "author": "emilieDelsol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilieDelsol/PetHealthBook/issues"
+  },
+  "homepage": "https://github.com/emilieDelsol/PetHealthBook#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-plugin-react": "^7.23.2",
+    "nodemon": "^2.0.7"
+  }
+}
