@@ -4,7 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const path = require('path');
 const report = require('./models/report');
-
+const api = require('./routes/routes');
 
 // Create a new express application named 'app'
 const app = express();
@@ -26,8 +26,8 @@ mongoose.connect('mongodb+srv://herve:hm4378363773hm@cluster0.rzuij.mongodb.net/
 
 // Configure the CORs middleware
 app.use(cors());
-
 app.use(express.json());
+app.use('/api/v1/', api);
 
 // This middleware informs the express application to serve our compiled React files
 if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
@@ -39,12 +39,7 @@ if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging')
 }
 
 
-// examples 
-app.get('/msg', (request, response) => {
-	response.status(200).json({
-		msg: 'Catch All'
-	});
-});
+// gets provisoires -> routes et controllers en cours d'écriture  
 
 app.get('/dashboard/reports', (request, response) => {
 	report.find()
@@ -67,8 +62,6 @@ app.get('/', (request, response) => {
 	response.send('Welcome to Express');
 });
 
-app.get('/users/:name', (request, response) => {
-	response.send(`Welcome ${request.params.name}`);
-});
+
 // Configure our server to listen on the port defiend by our port variable
 app.listen(port, () => console.log(`BACK_END_SERVICE_PORT: ${port}`));

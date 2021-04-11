@@ -1,26 +1,35 @@
 # PetHealthBook
-Red thread project for D2velop
-This is the red thread project for D2velop .
 
-- the initial idea: 
+### Build for D2velop 
+    This app is a red thread project for our mentoring with D2velop. 
 
-an online health record for pets, the user can create an account, add their animals, manage reminders of vaccines, taking of antiparasitics etc ...
+Open[https://d2velop.fr/](https://d2velop.fr/) to know more about mentorat
+
+## the initial idea: 
+
+An online health record for pets, the user can create an account, add their animals, manage reminders of vaccines, taking of antiparasitics etc ...
 The user's veterinarian could connect to the animals on which his client has identified him and add consultation reports, examination results, etc...
 The primary purpose of this application is that the user has access to the history of his animal in case of emergency on weekends or public holidays ... 
 and that he can manage his appointments and treatments.
 There will therefore be 2 types of accounts: owner and veterinarian.
 
 ---
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) 
 
-# Getting Started with Create React App
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](http://forthebadge.com)
+
+---
 
 ## Available Scripts
 
-In the project directory, you can run:
+**On the root project directory you can run :**
 
-### `npm start`
+# Start app front and back
+### `npm run dev`
+
+this start front and back concurrently
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -28,12 +37,22 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+Runs the back in the development mode.\
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open[http://localhost:5000/api/v2/all-reports](http://localhost:5000/api/v2/all-reports) to view json results of route all reports
 
-### `npm run build`
+### `npm run front`
+
+start only front app
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm run server`
+
+start only back app 
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+
+### ` npm run front:build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -41,44 +60,25 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**On frontPetHealthBook directory you can run:** 
+### `npm test`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### tests back work in progress...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Open [https://pet-health-book.herokuapp.com/](https://pet-health-book.herokuapp.com/) to view the app deploy on heroku .
 
-### `npm run build` fails to minify
+### Authors 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   - Open[https://github.com/HerveMeste](Hervé Meste)
+   - Open[https://github.com/emilieDelsol](Emilie Delsol)
+
+### Reviewer 
+   - Open[https://github.com/cegerard](Cédric Gérard)
