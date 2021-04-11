@@ -1,0 +1,24 @@
+.formReport{
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formReport input{
+    margin: 1em;
+}
+
+.formReport button{
+    width: min-content;
+    margin: 1em;
+}
+
+.report{
+    display: flex;
+}
+.report p{
+    margin: 1em;
+}
