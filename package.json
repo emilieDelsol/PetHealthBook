@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "front": "cd front-pet-health-book && npm start",
-    "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run front \"",
+    "server": "cd back && nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run front\"",
     "front:build": "cd front-pet-health-book && npm run build"
   },
   "repository": {
