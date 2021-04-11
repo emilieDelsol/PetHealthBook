@@ -3,7 +3,7 @@
 ### Build for D2velop 
     This app is a red thread project for our mentoring with D2velop. 
 
-Open[https://d2velop.fr/](https://d2velop.fr/) to know more about mentorat
+Open [https://d2velop.fr/](https://d2velop.fr/) to know more about mentorat
 
 ## the initial idea: 
 
@@ -40,16 +40,12 @@ You will also see any lint errors in the console.
 Runs the back in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
-Open[http://localhost:5000/api/v2/all-reports](http://localhost:5000/api/v2/all-reports) to view json results of route all reports
+Open [http://localhost:5000/api/v2/all-reports](http://localhost:5000/api/v2/all-reports) to view json results of route all reports
 
-### `npm run front`
-
-start only front app
+### `npm run front` start only front app
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm run server`
-
-start only back app 
+### `npm run server` start only back app 
 Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 ### ` npm run front:build`
@@ -77,8 +73,8 @@ Open [https://pet-health-book.herokuapp.com/](https://pet-health-book.herokuapp.
 
 ### Authors 
 
-   - Open[https://github.com/HerveMeste](Hervé Meste)
-   - Open[https://github.com/emilieDelsol](Emilie Delsol)
+   - [https://github.com/HerveMeste](Hervé Meste)
+   - [https://github.com/emilieDelsol](Emilie Delsol)
 
 ### Reviewer 
-   - Open[https://github.com/cegerard](Cédric Gérard)
+   - [https://github.com/cegerard](Cédric Gérard)
