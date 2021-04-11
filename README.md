@@ -73,8 +73,8 @@ Open [https://pet-health-book.herokuapp.com/](https://pet-health-book.herokuapp.
 
 ### Authors 
 
-   - [https://github.com/HerveMeste](Hervé Meste)
-   - [https://github.com/emilieDelsol](Emilie Delsol)
+   - [Herve Meste](https://github.com/HerveMeste) 
+   - [Emilie Delsol](https://github.com/emilieDelsol) 
 
 ### Reviewer 
-   - [https://github.com/cegerard](Cédric Gérard)
+   - [Cédric Gérard](https://github.com/cegerard) our Sensei ;)
