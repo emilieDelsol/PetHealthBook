@@ -41,23 +41,6 @@ if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging')
 
 // gets provisoires -> routes et controllers en cours d'écriture  
 
-app.get('/dashboard/reports', (request, response) => {
-	report.find()
-		.then(report => response.status(200).json(report))
-		.catch(error => response.status(400).json({ error }));
-});
-
-app.post('/dashboard/reports', (req, res) => {
-	delete req.body._id;
-	const Product = new report({
-		...req.body
-	});
-	console.log(Product);
-	Product.save()
-		.then(product => res.status(201).json({ product }))
-		.catch(error => res.status(400).json({ error }));
-});
-
 app.get('/', (request, response) => {
 	response.send('Welcome to Express');
 });
