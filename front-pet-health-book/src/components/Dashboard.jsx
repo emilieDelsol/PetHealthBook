@@ -1,11 +1,13 @@
 import React,{useEffect, useState} from 'react'
 import ConsultationReport from './ConsultationReport.jsx';
 import axios from 'axios';
+import ButtonForm from './buttonForm.jsx';
+import './dashboard.css'
 
-const Dashboard = () =>{
+function Dashboard() {
     // eslint-disable-next-line react-hooks/rules-of-hooks
 const [reports, setReports] = useState([]); 
-const url = 'http://localhost:5000/api/v1/all-reports';
+const url = '/api/v1/all-reports';
 const getReports = () => {
     axios
     .get(url)
@@ -16,11 +18,13 @@ const getReports = () => {
 useEffect(() => {
     getReports();
 },[]);
+
+
     return(
         <section>
+            <ButtonForm />
             <ConsultationReport reports = {reports}/>
         </section>
     );
 }
-
 export default Dashboard;
