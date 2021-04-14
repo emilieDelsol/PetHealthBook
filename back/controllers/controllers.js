@@ -17,5 +17,12 @@ const addReport = (request, response) => {
 		.catch(error => response.status(400).json({ error }));
 };
 
+const deleteOneReportByID = (request, response) => {
+	report.deleteOne({_id: request.params.id})
+		.then(() => response.status(200).json({message: 'Deleted'}))
+		.catch(error => response.status(400).json({ error}));
+};
+
 module.exports.getAllReports = getAllReports;
 module.exports.addReport = addReport;
+module.exports.deleteOneReportByID = deleteOneReportByID;
