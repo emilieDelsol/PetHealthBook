@@ -40,7 +40,7 @@ You will also see any lint errors in the console.
 Runs the back in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
-Open [http://localhost:5000/api/v2/all-reports](http://localhost:5000/api/v2/all-reports) to view json results of route all reports
+Open [http://localhost:5000/api/v1/all-reports](http://localhost:5000/api/v1/all-reports) to view json results of route all reports
 
 ### `npm run front` start only front app
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -77,4 +77,4 @@ Open [https://pet-health-book.herokuapp.com/](https://pet-health-book.herokuapp.
    - [Emilie Delsol](https://github.com/emilieDelsol) 
 
 ### Reviewer 
-   - [Cédric Gérard](https://github.com/cegerard) our Sensei ;)
+   - [Cédric Gérard](https://github.com/cegerard) our Master Sensei ;)
